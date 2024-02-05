@@ -19,8 +19,43 @@ export default function Home() {
       </Head>
 
       <HeaderTab/>
-      {/* テスト用の画像表示 */}
-      <Page/>
+      {/* ↓のPage/はテスト用の画像表示 */}
+      {/* <Page/> */}
+      <div className={styles.slides}>
+        <div className={styles.slide} id="1">
+          <div id="slider-wrapper">
+            <div id="image-slider">
+              <ul>
+                <li class="active-img">
+                  <div class="slide-caption">
+                    <h6>New Arrival</h6>
+                    <h2>BeautifulEarth</h2>
+                  </div>
+                </li>
+                {/* <li>
+                  <div class="slide-caption">
+                    <h6>Latest One</h6>
+                    <h2>TechMeeting</h2>
+                  </div>
+                </li>
+                <li>
+                  <div class="slide-caption">
+                    <h6>Your Update</h6>
+                    <h2>SmartDevices</h2>
+                  </div>
+                </li>                       */}
+              </ul>
+            </div>
+            {/* <div id="thumbnail">
+              <ul>
+                <li class="active"><img src="thumb-01.jpg" alt="Earth" /></li>
+                <li><img src="assets/images/thumb-02.jpg" alt="Meeting" /></li>
+                <li><img src="assets/images/thumb-03.jpg" alt="Smart" /></li>         
+              </ul>
+            </div> */}
+          </div>
+        </div>    
+      </div>
       <main className={styles.main}>
         
         <div className={styles.description}>

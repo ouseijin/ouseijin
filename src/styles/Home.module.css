@@ -1,3 +1,23 @@
+.slides {
+  width: 500vw;
+  height: 100vh;
+  /* 0.8秒のアニメーション指定 headerのページ切り替えがスライドになる */
+  -webkit-transition: -webkit-transform 0.8s ease;
+  transition: -webkit-transform 0.8s ease;
+  transition: transform 0.8s ease;
+  transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+  /* background-image: url(/full-bg-01.jpg); */
+}
+.slide {
+  height: 100vh;
+  width: 100vw;
+  float: left;
+  text-align: center;
+  background-size: cover;
+}
+
+
+/* 元々記載のコード */
 .main {
   display: flex;
   flex-direction: column;
