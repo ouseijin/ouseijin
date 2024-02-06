@@ -27,9 +27,9 @@ export default function Home() {
             <div id="image-slider">
               <ul>
                 <li class="active-img">
-                  <div class="slide-caption">
+                  <div className={styles.slide_caption}>
                     <h6>New Arrival</h6>
-                    <h2>BeautifulEarth</h2>
+                    <h2>Beautiful<br></br>Earth</h2>
                   </div>
                 </li>
                 {/* <li>
