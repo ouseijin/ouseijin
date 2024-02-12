@@ -35,11 +35,11 @@ export function HeaderTab() {
           <li>
             <a href="#2">
               <Image
-              src="/icon-2.png"
+              src="/icon-2.1.png"
               width={40}
               height={40}
               alt="Picture of the author"/>
-              <em>About Us</em>
+              <em>About Me</em>
             </a>
           </li>
           <li>
@@ -59,7 +59,7 @@ export function HeaderTab() {
               width={40}
               height={40}
               alt="Picture of the author"/>
-              <em>Contact Us</em>
+              <em>Contact Me</em>
             </a>
           </li>
         </ul>
