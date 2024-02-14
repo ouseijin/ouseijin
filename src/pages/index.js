@@ -64,7 +64,7 @@ export default function Home() {
               <li><a href='#tabs-2'><span class='fa fa-users'></span></a></li>
               <li><a href='#tabs-3'><span class='fa fa-mobile'></span></a></li>
             </ul>
-            <section class='tabs-content'>
+            <section className={styles.tabs_content}>
               <article id='tabs-1'>
                 <h2>What We Offer?</h2>
                 <span>Free Bootstrap v4 Theme</span>
