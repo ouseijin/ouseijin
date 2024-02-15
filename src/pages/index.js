@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         
         <div className={styles.description}>
           <p>
@@ -182,7 +182,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </main> */}
     </>
   )
 }
