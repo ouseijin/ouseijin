@@ -40,6 +40,19 @@
 }
 
 /* ABOUT ME */
+.content {
+  overflow-y: scroll;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  left: 20%;
+  top: 10%;
+}
+.second_content {
+	top: 180%!important;
+	transform: translateY(-180%);
+}
+
 .tabs_content {
   margin-left: 60px;
   width: 585px;

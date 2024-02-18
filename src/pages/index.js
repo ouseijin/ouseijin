@@ -56,8 +56,8 @@ export default function Home() {
           </div>
         </div>    
       </div>
-      <div class="slide" id="2">
-        <div class="content second-content">
+      <div className={styles.slide} id="2">
+        <div className={`${styles.content} ${styles.second_content}`}>
           <div id='tabs'>
             <ul>
               <li><a href='#tabs-1'><span class='fa fa-desktop'></span></a></li>
