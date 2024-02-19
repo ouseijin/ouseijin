@@ -86,7 +86,7 @@
 
 
 /* 元々記載のコード いずれ消す */
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -194,7 +194,8 @@
 
 .logo {
   position: relative;
-}
+} */
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
