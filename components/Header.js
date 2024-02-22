@@ -1,17 +1,17 @@
 import Header from './Header.module.css';
 import Image from 'next/image'
 
-// テスト用の画像function
-export function Page() {
-  return (
-    <Image
-      src="/icon-1.png"
-      width={40}
-      height={40}
-      alt="Picture of the author"
-    />
-  )
-}
+// テスト用の画像function、index.jsのPageも消して良い
+// export function Page() {
+//   return (
+//     <Image
+//       src="/icon-1.png"
+//       width={40}
+//       height={40}
+//       alt="Picture of the author"
+//     />
+//   )
+// }
 
 export function HeaderTab() {
   return (
