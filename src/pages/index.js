@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-
+// TODO:Pageが必要なければ消す
 import { HeaderTab, Page } from '/components/Header'
-// import { Page } from '/components/Header'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
