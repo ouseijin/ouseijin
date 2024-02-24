@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 // TODO:Pageが必要なければ消す
 import { HeaderTab, Page } from '/components/Header'
 
@@ -58,11 +60,16 @@ export default function Home() {
       </div>
       <div className={styles.slide} id="2">
         <div className={`${styles.content} ${styles.second_content}`}>
-          <div id='tabs'>
+          {/* 元々、<div id='tabs'> */}
+          <div className={styles.tabs}>
             <ul>
-              <li><a href='#tabs-1'><span class='fa fa-desktop'></span></a></li>
+              <li className={styles.span}>
+                <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+              </li>
+              {/* <li><a href='#tabs-1'><span class="fa-solid fa-desktop">
+              </span></a></li>
               <li><a href='#tabs-2'><span class='fa fa-users'></span></a></li>
-              <li><a href='#tabs-3'><span class='fa fa-mobile'></span></a></li>
+              <li><a href='#tabs-3'><span class='fa fa-mobile'></span></a></li> */}
             </ul>
             <section className={styles.tabs_content}>
               <article id='tabs-1'>

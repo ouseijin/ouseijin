@@ -80,7 +80,49 @@
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
+/* TODO:クラス名を個別に分かるような名前に変える */
+.tabs {
+  float: right;
+  margin-right: 0px;
+}
+.tabs ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.tabs ul li {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: block;
+  background-color: transparent;
+}
+/* 無くても良さそう */
+.tabs ul li:last-child {
+  margin-bottom: 0px;
+}
+.span {
+  text-align: center; 
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  font-size: 32px;
+  line-height: 84px;
+  border-radius: 50%;
+  /* 付け足し */
+  padding: 15%;
+}
+.fa {
+  padding: 15%;
+}
+/* 選択した所が色変わるように見えるために、jQuery UIのタブウィジェットが使われている */
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
 
 
 
