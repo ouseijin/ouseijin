@@ -64,7 +64,9 @@ export default function Home() {
           <div className={styles.tabs}>
             <ul>
               <li className={styles.span}>
-                <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                <a href='#tabs-1'>
+                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                </a>
               </li>
               {/* <li><a href='#tabs-1'><span class="fa-solid fa-desktop">
               </span></a></li>
