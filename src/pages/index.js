@@ -63,7 +63,7 @@ export default function Home() {
           {/* 元々、<div id='tabs'> */}
           <div className={styles.tabs}>
             <ul>
-              <li className={styles.span}>
+              <li className={styles.icon_button}>
                 <a href='#tabs-1'>
                   <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
                 </a>
