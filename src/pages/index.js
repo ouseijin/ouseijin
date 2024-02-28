@@ -68,6 +68,16 @@ export default function Home() {
                   <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
                 </a>
               </li>
+              <li className={styles.icon_button}>
+                <a href='#tabs-2'>
+                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                </a>
+              </li>
+              <li className={styles.icon_button}>
+                <a href='#tabs-3'>
+                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                </a>
+              </li>
               {/* <li><a href='#tabs-1'><span class="fa-solid fa-desktop">
               </span></a></li>
               <li><a href='#tabs-2'><span class='fa fa-users'></span></a></li>
