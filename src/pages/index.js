@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { faCommentDots, faStairs, faHandFist } from "@fortawesome/free-solid-svg-icons";
 // TODO:Pageが必要なければ消す
 import { HeaderTab, Page } from '/components/Header'
 
@@ -65,17 +65,17 @@ export default function Home() {
             <ul>
               <li className={styles.icon_button}>
                 <a href='#tabs-1'>
-                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                <FontAwesomeIcon icon={faCommentDots} className={styles.fa} />
                 </a>
               </li>
               <li className={styles.icon_button}>
                 <a href='#tabs-2'>
-                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                  <FontAwesomeIcon icon={faStairs} className={styles.fa} />
                 </a>
               </li>
               <li className={styles.icon_button}>
                 <a href='#tabs-3'>
-                  <FontAwesomeIcon icon={faDesktop} className={styles.fa} />
+                  <FontAwesomeIcon icon={faHandFist} className={styles.fa} />
                 </a>
               </li>
               {/* <li><a href='#tabs-1'><span class="fa-solid fa-desktop">
