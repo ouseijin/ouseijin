@@ -78,10 +78,6 @@ export default function Home() {
                   <FontAwesomeIcon icon={faHandFist} className={styles.fa} />
                 </a>
               </li>
-              {/* <li><a href='#tabs-1'><span class="fa-solid fa-desktop">
-              </span></a></li>
-              <li><a href='#tabs-2'><span class='fa fa-users'></span></a></li>
-              <li><a href='#tabs-3'><span class='fa fa-mobile'></span></a></li> */}
             </ul>
             <section className={styles.tabs_content}>
               <article id='tabs-1'>
