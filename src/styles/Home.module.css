@@ -64,7 +64,7 @@
 }
 .tabs_content h2 {
   font-size: 29px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 900;
   color: #1e1e1e;
   margin-top: 0px;
