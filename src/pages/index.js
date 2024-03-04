@@ -82,7 +82,7 @@ export default function Home() {
             <section className={styles.tabs_content}>
               <article id='tabs-1'>
                 <h2>初めまして、<br />好奇心旺星人(ouseijin)です！</h2>
-                <span>Free Bootstrap v4 Theme</span>
+                <span>ワクワクするのが私の人生！退屈は人を殺す</span>
                 <p>Earth is free Bootstrap v4.1.3 HTML Template for you. Feel free to edit and use this website template for any purpose. Please tell your friends about Tooplate website. Follow us on <a href="https://www.facebook.com/tooplate/">Facebook page</a> for latest updates. Thank you.</p>
                 <p>Aenean non suscipit risus. Nam mattis, ipsum ac aliquet dignissim, eros justo tempor dolor, rutrum feugiat nunc mauris et elit. Mauris sem odio, accumsan vel sem sed, aliquam convallis dui. Aenean et commodo est.</p>
               </article>
