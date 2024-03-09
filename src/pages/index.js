@@ -83,8 +83,16 @@ export default function Home() {
               <article id='tabs-1'>
                 <h2>初めまして、<br />好奇心旺星人(ouseijin)です！</h2>
                 <span>ワクワクするのが私の人生！退屈は人を殺す</span>
-                <p>Earth is free Bootstrap v4.1.3 HTML Template for you. Feel free to edit and use this website template for any purpose. Please tell your friends about Tooplate website. Follow us on <a href="https://www.facebook.com/tooplate/">Facebook page</a> for latest updates. Thank you.</p>
-                <p>Aenean non suscipit risus. Nam mattis, ipsum ac aliquet dignissim, eros justo tempor dolor, rutrum feugiat nunc mauris et elit. Mauris sem odio, accumsan vel sem sed, aliquam convallis dui. Aenean et commodo est.</p>
+                <p>
+                  高校では、未経験なのに経験者しかいないガチバスケ部に入部<br />
+                  初めての店に一人で入れない程臆病なのに、一人で海外旅行<br />
+                  高所恐怖症を直すためにマカオタワーまで行って、バンジージャンプ！<br />
+                  スマホの設定すら出来ない機械音痴なのに、プログラミング学んでエンジニア転職<br />
+                  そんなチャレンジ大好き人間です😉
+                </p>
+                <p>
+                  エンジニアとしては知識も能力も足りない所がたくさんありますが、｢昨日の自分に負けない｣を信条に日々学んでいくようにしています📚
+                </p>
               </article>
               <article id='tabs-2'>
                 <h2>私の経歴</h2>
