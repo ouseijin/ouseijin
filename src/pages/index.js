@@ -101,7 +101,7 @@ export default function Home() {
                 <p>Quisque blandit purus orci, et cursus ante porttitor in. Curabitur eleifend turpis id diam ultricies hendrerit. Donec et lectus vitae justo porta molestie.</p>
               </article>
               <article id='tabs-3'>
-                <h2>Who We Are?</h2>
+                <h2>趣味</h2>
                 <span>Etiam tempus ex ut mi</span>
                 <p>Vivamus dictum odio at enim posuere, et dapibus nunc sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
                 <p>Integer a egestas tellus, id malesuada velit. Pellentesque tincidunt, libero eu rutrum volutpat, nisi urna mollis felis, sed mollis sem libero at magna.</p>
