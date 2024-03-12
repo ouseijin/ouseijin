@@ -102,9 +102,19 @@ export default function Home() {
               </article>
               <article id='tabs-3'>
                 <h2>趣味</h2>
-                <span>共通の趣味や興味あるものについては是非お気軽に連絡下さい！</span>
-                <p>Vivamus dictum odio at enim posuere, et dapibus nunc sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
-                <p>Integer a egestas tellus, id malesuada velit. Pellentesque tincidunt, libero eu rutrum volutpat, nisi urna mollis felis, sed mollis sem libero at magna.</p>
+                <p>
+                  【カッコイイ身体になるために】<br/>
+                  筋トレ💪　キックボクシング🥊
+                </p> 
+                <p>
+                  【人生を充実させるために】<br/>
+                  海外旅行🌎　読書📖
+                </p>
+                <p>
+                  【止められない中毒なやつ】<br/>
+                  格闘技観戦😇<br/>
+                  MMA（UFC、Bellator、RIZIN）が特に好き
+                </p>
               </article>
             </section>
           </div>
