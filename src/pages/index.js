@@ -102,6 +102,7 @@ export default function Home() {
               </article>
               <article id='tabs-3'>
                 <h2>趣味</h2>
+                <span>共通の趣味や下記の内容に興味あれば、是非お気軽に連絡下さい！</span>
                 <p>
                   【カッコイイ身体になるために】<br/>
                   筋トレ💪　キックボクシング🥊
