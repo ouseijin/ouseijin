@@ -121,6 +121,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.slide} id="3">
+        <div class="content third-content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="owl-carousel owl-theme">
+                <div class="col-md-12">
+                  <div class="featured-item"> 
+                    <a href="">
+                      {/* <img src="assets/images/item-01.jpg" alt=""> */}
+                    </a>
+                    <div class="down-content">
+                    <h4>Donec non sagittis</h4>
+                        <h6>$25.00</h6>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <main className={styles.main}>
         
         <div className={styles.description}>
