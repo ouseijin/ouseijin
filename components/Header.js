@@ -49,7 +49,7 @@ export function HeaderTab() {
               width={40}
               height={40}
               alt="Picture of the author"/>
-              <em>Our Gallery</em>
+              <em>My Gallery</em>
             </a>
           </li>
           <li>
