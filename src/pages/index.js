@@ -122,7 +122,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.slide} id="3">
-        <div class="content third-content">
+        <div className={`${styles.content} ${styles.third_content}`}>
           <div class="container-fluid">
             <div class="row">
               <div class="owl-carousel owl-theme">

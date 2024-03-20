@@ -124,6 +124,10 @@
   border-bottom: none;
 }
 
+.third_content {
+top: 140%!important;
+transform: translateY(-140%);
+}
 
 
 
