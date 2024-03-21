@@ -123,8 +123,8 @@ export default function Home() {
       </div>
       <div className={styles.slide} id="3">
         <div className={`${styles.content} ${styles.third_content}`}>
-          <div class="container-fluid">
-            <div class="row">
+          <div class="container-fluid"> {/* bootstrapのclass */}
+            <div class="row"> {/* bootstrapのclass */}
               <div class="owl-carousel owl-theme">
                 <div class="col-md-12">
                   <div class="featured-item"> 
@@ -132,8 +132,8 @@ export default function Home() {
                       {/* <img src="assets/images/item-01.jpg" alt=""> */}
                     </a>
                     <div class="down-content">
-                    <h4>Donec non sagittis</h4>
-                        <h6>$25.00</h6>
+                      <h4>Donec non sagittis</h4>
+                      <h6>$25.00</h6>
                     </div>
                   </div>
                 </div>
