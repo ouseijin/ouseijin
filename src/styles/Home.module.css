@@ -131,6 +131,13 @@ transform: translateY(-140%);
 }
 
 
+/* CONTACT ME */
+.fourth_content {
+	top: 140%!important;
+  height: 100%;
+	transform: translateY(-140%);
+}
+
 
 /* 元々記載のコード いずれ消す */
 /* .main {
