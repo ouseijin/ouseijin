@@ -134,8 +134,17 @@ transform: translateY(-140%);
 /* CONTACT ME */
 .fourth_content {
 	top: 140%!important;
-  height: 100%;
+  /* height: 100%; */ /* 共通cssのcontentと競合しているので一旦コメントアウト */
 	transform: translateY(-140%);
+}
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 750px;
+  margin-bottom: 100px;
+  padding: 40px;
+  /* background-color: rgba(0,0,0,0.9); */
+  background-color: rgba(31, 168, 102, 0.9); /* 見やすくするための一時的な背景色 */
 }
 
 

@@ -146,14 +146,14 @@ export default function Home() {
       <div className={styles.slide} id="4">
         <div className={`${styles.content} ${styles.fourth_content}`}>
           <div class="container-fluid"> {/* bootstrapのclass */}
-            <form id="contact" action="" method="post">
+            <div className={styles.contact}>
               <div class="row">
                 <div class="col-md-12">
                   <h2>Say Hello!</h2>
                 </div>
                 
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
