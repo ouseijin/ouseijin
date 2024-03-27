@@ -146,6 +146,21 @@ transform: translateY(-140%);
   /* background-color: rgba(0,0,0,0.9); */
   background-color: rgba(31, 168, 102, 0.9); /* 見やすくするための一時的な背景色 */
 }
+.contact_icon {
+  overflow: hidden;
+}
+.contact_icon ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.contact_icon li {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: block;
+  background-color: transparent;
+}
+
 
 
 /* 元々記載のコード いずれ消す */

@@ -150,6 +150,15 @@ export default function Home() {
               <div class="row">
                 <div class="col-md-12">
                   <h2>Say Hello!</h2>
+                  <div className={styles.contact_icon}>
+                    <ul>
+                      <li className={styles.icon_button}>
+                        <a href=''>
+                          <FontAwesomeIcon icon={faCommentDots} className={styles.fa} />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 
               </div>
