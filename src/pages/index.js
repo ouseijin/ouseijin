@@ -149,7 +149,7 @@ export default function Home() {
             <div className={styles.contact}>
               <div class="row">
                 <div class="col-md-12">
-                  <h2>Say Hello!</h2>
+                  <h2>ご連絡があればコチラまで!</h2>
                   <div className={styles.contact_icon}>
                     <ul>
                       <li className={styles.icon_button}>
