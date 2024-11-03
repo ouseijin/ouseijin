@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faStairs, faHandFist } from "@fortawesome/free-solid-svg-icons";
 // TODO:Pageが必要なければ消す
 import { HeaderTab, Page } from '/components/Header'
-import { Contact } from '/components/contact/Contact'
+import { Contact } from '/components/contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
