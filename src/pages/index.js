@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faStairs, faHandFist } from "@fortawesome/free-solid-svg-icons";
 // TODO:Pageが必要なければ消す
 import { HeaderTab, Page } from '/components/Header'
-
+import { Contact } from '/components/contact/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -143,29 +143,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.slide} id="4">
-        <div className={`${styles.content} ${styles.fourth_content}`}>
-          <div class="container-fluid"> {/* bootstrapのclass */}
-            <div className={styles.contact}>
-              <div class="row">
-                <div class="col-md-12">
-                  <h2>ご連絡があればコチラまで!</h2>
-                  <div className={styles.contact_icon}>
-                    <ul>
-                      <li className={styles.icon_button}>
-                        <a href=''>
-                          <FontAwesomeIcon icon={faCommentDots} className={styles.fa} />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <Contact />
     </>
   )
 }
