@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const Contact = () => {
   return (
@@ -12,22 +12,26 @@ export const Contact = () => {
             <div class="row">
               <div class="col-md-12">
                 <h2>ご連絡があればコチラまで!</h2>
-                <div className={styles.contact_icon}>
-                  <ul>
-                    <li className={styles.icon_button}>
+                <div>
+                  <ul className={styles.contact_icon}>
+                    <li className={styles.icon_button2}>
                       <a href=''>
-                        <FontAwesomeIcon icon={faXTwitter} className={styles.fa} />
+                        <FontAwesomeIcon icon={faXTwitter} />
                       </a>
                     </li>
-                    <li className={styles.icon_button}>
+                    <li className={styles.icon_button2}>
                       <a href=''>
-                        <FontAwesomeIcon icon={faXTwitter} className={styles.fa} />
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                    </li>
+                    <li className={styles.icon_button2}>
+                      <a href=''>
+                        <FontAwesomeIcon icon={faXTwitter} />
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

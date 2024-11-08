@@ -145,20 +145,25 @@ transform: translateY(-140%);
   padding: 40px;
   /* background-color: rgba(0,0,0,0.9); */
   background-color: rgba(31, 168, 102, 0.9); /* 見やすくするための一時的な背景色 */
-}
-.contact_icon {
   overflow: hidden;
 }
-.contact_icon ul {
-  margin: 0;
-  padding: 0;
-  float: left;
+.contact_icon {
+  display: inline-flex;
 }
 .contact_icon li {
-  margin-top: 5px;
-  margin-bottom: 25px;
+  margin: 50px;
   display: block;
   background-color: transparent;
+}
+.icon_button2 {
+  text-align: center; 
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 4%;
 }
 
 
