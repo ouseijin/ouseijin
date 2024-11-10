@@ -2,6 +2,7 @@ import styles from '@/styles/Home.module.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image'
 
 export const Contact = () => {
   return (
@@ -26,7 +27,11 @@ export const Contact = () => {
                     </li>
                     <li className={styles.icon_button2}>
                       <a href=''>
-                        <FontAwesomeIcon icon={faXTwitter} />
+                      <Image
+                      src="/icon/zenn-logo-white.svg"
+                      width={40}
+                      height={40}
+                      alt="zennのロゴ"/>
                       </a>
                     </li>
                   </ul>
