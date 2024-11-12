@@ -2,6 +2,7 @@ import styles from '@/styles/Home.module.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 import Image from 'next/image'
 
 export const Contact = () => {
@@ -16,23 +17,23 @@ export const Contact = () => {
                 <div>
                   <ul className={styles.contact_icon}>
                     <li className={styles.icon_button2}>
-                      <a href=''>
+                      <Link href="https://x.com/ouseijin">
                         <FontAwesomeIcon icon={faXTwitter} />
-                      </a>
+                      </Link>
                     </li>
                     <li className={styles.icon_button2}>
-                      <a href=''>
+                      <Link href="https://github.com/ouseijin">
                         <FontAwesomeIcon icon={faGithub} />
-                      </a>
+                      </Link>
                     </li>
                     <li className={styles.icon_button2}>
-                      <a href=''>
+                      <Link href="https://zenn.dev/ouseijin">
                       <Image
                       src="/icon/zenn-logo-white.svg"
                       width={40}
                       height={40}
                       alt="zennのロゴ"/>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
