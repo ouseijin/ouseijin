@@ -17,17 +17,17 @@ export const Contact = () => {
                 <div>
                   <ul className={styles.contact_icon}>
                     <li className={styles.icon_button2}>
-                      <Link href="https://x.com/ouseijin">
+                      <Link href="https://x.com/ouseijin" rel="noopener noreferrer" target="_blank">
                         <FontAwesomeIcon icon={faXTwitter} />
                       </Link>
                     </li>
                     <li className={styles.icon_button2}>
-                      <Link href="https://github.com/ouseijin">
+                      <Link href="https://github.com/ouseijin" rel="noopener noreferrer" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
                       </Link>
                     </li>
                     <li className={styles.icon_button2}>
-                      <Link href="https://zenn.dev/ouseijin">
+                      <Link href="https://zenn.dev/ouseijin" rel="noopener noreferrer" target="_blank">
                       <Image
                       src="/icon/zenn-logo-white.svg"
                       width={40}
