@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faStairs, faHandFist } from "@fortawesome/free-solid-svg-icons";
-// TODO:Pageが必要なければ消す
-import { HeaderTab, Page } from '/components/Header'
+
+// import { HeaderTab } from '/components/Header'
 import { Contact } from '/components/contact'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,9 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HeaderTab/>
-      {/* ↓のPage/はテスト用の画像表示 */}
-      {/* <Page/> */}
+      {/* <HeaderTab/> */}
       <div className={styles.slides}>
         <div className={styles.slide} id="1">
           <div id="slider-wrapper">

@@ -1,18 +1,6 @@
 import Header from './Header.module.css';
 import Image from 'next/image'
 
-// テスト用の画像function、index.jsのPageも消して良い
-// export function Page() {
-//   return (
-//     <Image
-//       src="/icon-1.png"
-//       width={40}
-//       height={40}
-//       alt="Picture of the author"
-//     />
-//   )
-// }
-
 export function HeaderTab() {
   return (
     <header>
@@ -28,6 +16,7 @@ export function HeaderTab() {
               src="/icon-1.png"
               width={40}
               height={40}
+              // 後でaltや画像のpath修正
               alt="Picture of the author"/>
               <em>Homepage</em>
             </a>
